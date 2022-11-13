@@ -1,0 +1,9 @@
+body {
+  background-image: url(http://localhost/mesImages/grisclaire.jpg);
+  background-size: cover;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }

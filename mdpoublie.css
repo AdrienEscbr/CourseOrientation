@@ -1,0 +1,171 @@
+ /* 
+    Created on : 16 oct. 2020, 12:05:07
+    Author     : Océane.M
+*/
+ 
+* {
+    box-sizing: border-box;
+  } 
+ 
+  body{
+    background-image: url(http://localhost/CourseOrientation/mesImages/grisclaire.jpg);
+    background-size: cover;
+    color: rgb(25, 114, 25); 
+    text-align: center;
+
+  }
+
+  /* Bouton DECONNEXION */
+
+  .bouttonBack {
+    display: flex;
+    margin: 10px auto;
+    margin-left: 5px;
+  }
+  
+  .bouttonBack a:link{
+    text-decoration: none;
+  }
+
+  #btn {
+    background: rgb(177, 177, 177);
+    height: 55px;
+    min-width: 140px;
+    border: none;
+    border-radius: 10px;
+    color:rgb(25, 114, 25);
+    font-size: 28px;
+    font-family: 'Cookie', cursive;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+  }
+  
+  #btn #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+  }
+  
+  .noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+  }
+  
+  #btn:hover {
+    background: transparent;
+  }
+  
+  #btn:hover #circle {
+    height: 55px;
+    width: 120px;
+    left: 10px;
+    border-radius: 0;
+    border-bottom: 2px solid #eee;
+  }
+
+  /* boutton */
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: rgb(25, 114, 25); 
+    border: 2px solid #4CAF50;
+  }
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .button2 {
+    background-color: white; 
+    color: rgb(25, 114, 25); 
+    border: 2px solid #4CAF50;
+  }
+  .button2:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+/* Reste du code */
+
+body > .titre {
+  font-family: 'Times New Roman', sans-serif;
+  color:rgb(25, 114, 25);
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  background-size: cover;
+  line-height: 22px;
+}
+
+body > .menu {
+  font-family: 'Times New Roman', sans-serif;
+  color:  rgb(41, 158, 41);
+  background-size: cover;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* lien */
+
+  a:link{
+    font-family: 'Times New Roman', sans-serif;
+    text-decoration: none;
+    color:  rgb(41, 158, 41);
+    font-size: 15px;
+  }
+
+  a:visited{
+    color: rgb(255, 255, 255);
+  }
+
+  /* Date & Heure */
+
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+  }
+
+  input, label {
+    margin: .4rem 0;
+  }
+
+  div#co{
+    font-family: 'Times New Roman', sans-serif;
+    color:rgb(25, 114, 25);
+    background-size: cover;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+  }

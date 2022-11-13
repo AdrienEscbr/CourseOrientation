@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+} 
+
+body {
+  background-image: url(http://localhost/CourseOrientation/mesImages/grisclaire.jpg);
+  background-size: cover;
+  color: rgb(25, 114, 25);
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  
+}
+
+.bouttonBack {
+  display: flex;
+}
+
+#btn {
+  background: rgb(177, 177, 177);
+  height: 45px;
+  min-width: 80px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(25, 114, 25);
+  font-size: 28px;
+  font-family: 'Cookie', cursive;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#btn #circle {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#btn:hover {
+  background: transparent;
+}
+
+#btn:hover #circle {
+  height: 45px;
+  width: 80px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
+}
+
+
+.tableauParcoursEleve{
+  border-collapse: collapse;
+    min-width: 80px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(255, 255, 255, 0.35);
+    cursor: pointer;
+    border: 2px solid rgb(25, 114, 25); /* bordure du haut du tableau */
+
+}
+
+  .tableau-style {
+    border-collapse: collapse;
+    min-width: 80px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(255, 255, 255, 0.35);
+    cursor: pointer;
+    border: 2px solid rgb(25, 114, 25); /* bordure du haut du tableau */
+  }
+
+  
+  /* Fond ecran ligne du haut "nom,prenom..." */
+  thead tr {
+    background-color: rgb(25, 114, 25);
+    color: #fff;
+  }
+  
+  td, th {
+    padding: 15px 20px;
+  }  
+  
+  /* Bordure du tableau*/ 
+  tbody tr, td, th {
+    border: 1px solid white;
+  }
+  
+    /*Fond ligne tableau paire */
+  tbody tr:nth-child(even){
+    background-color: rgba(25, 114, 25, 0.6);
+    color: rgb(255, 255, 255); 
+  }
+  
+  /*Fond ligne tableau impaire */
+
+  tbody tr:nth-child(odd){
+    background-color: rgba(95, 109, 95, 0.5) ;
+    color: rgb(255, 255, 255); 
+    font-style: bold;
+  }
+
+  /* boutton */
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: rgb(25, 114, 25); 
+    border: 2px solid #4CAF50;
+  }
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<body>
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="mdpoublie.css"/> 
+        <link rel="stylesheet" href="reset.css"/>
+</head>
+<body>
+
+<!-- Bouton Retour -->
+<from class="bouttonBack">
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+<a href="http://localhost/CourseOrientation/index.php"><div id="btn"><span class="noselect">Retour</span><div id="circle"></div></div></a>
+</from>
+
+<!-- titre -->
+    <br></br>
+    <p class="titre"> Mot de passe oublie </p>
+    
+
+<!-- Menu -->
+<form class="menu" method="POST" action="validationmdpoublie.php">
+<br></br>
+
+        <div id="co"><strong> * Vos Coordonnées * </strong></div>
+        <br></br>
+            <h4>Nom : </div><input type="text" name="nom" size=15 required> Prénom : </div><input type="text" name="prenom" size=15 required><br></br></h4> 
+            
+            <br></br>
+            <input type ="submit" name="OK" value="Envoyer">    
+            <input type ="reset" name="cancel" value="Annuler"> 
+
+</form> 
+
+
+</body>
+</html> 
